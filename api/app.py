@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import sqlite3, joblib, pickle, numpy as np
-from src.preprocess import Preprocessor  
+from preprocess import Preprocessor 
 from gensim.models import FastText
 
 # Шляхи до артефактів
